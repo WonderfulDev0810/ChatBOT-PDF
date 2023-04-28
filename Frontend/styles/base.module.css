@@ -1,0 +1,48 @@
+.font_42 {
+  font-size: 42px;
+}
+
+.font_26 {
+  font-size: 21px;
+}
+
+.padding_32 {
+  padding: 32px,20px,32px,10px;
+}
+
+.padding_bottom_20{
+  padding-bottom: 20px;
+}
+
+.padding_top_20{
+  padding-bottom: 20px;
+}
+
+.font_color {
+  color: #000;
+}
+
+.div_color {
+  background-color:#f0f2f6;
+  width: 100%;
+}
+
+.div_size {
+  width: 80%;
+  height: 300px;
+}
+
+.div_padding {
+  padding: 16px,16px,16px,16px;
+}
+
+.textArea {
+  background-color:#f0f2f6;
+  width: 100%;
+  height: 200px;
+}
+
+.button {
+  margin-top: 20px;
+}
+  
