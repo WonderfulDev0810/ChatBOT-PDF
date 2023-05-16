@@ -142,7 +142,7 @@ const train = async (req, res) => {
     });
     /*create and store the embeddings in the vectorStore*/
     const embeddings = new OpenAIEmbeddings({
-      openAIApiKey: "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",
+      openAIApiKey: "xxx",
     });
     const index = pinecone.Index("myindex"); //change to your own index name
     // embed the PDF documents
@@ -163,7 +163,7 @@ const train = async (req, res) => {
 const newIndex = async (req, res) => {
   const client = new PineconeClient();
   await client.init({
-    apiKey: "a87410d4-dab2-453f-b50c-0d998a254dae",
+    apiKey: "xxx",
     environment: "us-east-1-aws",
   });
   const list = await client.createIndex({
